@@ -10,7 +10,7 @@ export const HeroSection = () => {
         
         {/* logo */}
         <div className="overflow-hidden ">
-          <img src="src/assets/logo-fuschia.png" alt="Logo" />
+          <img src="/logo-fuschia.png" alt="Logo" />
         </div>
 
         <div className="space-y-7 -mt-4">
