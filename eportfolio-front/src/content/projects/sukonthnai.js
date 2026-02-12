@@ -12,7 +12,7 @@ export default {
 
 Built in one week at What a Why Sanctuary, Bangkok (February 4–11, 2026).
 
-**Inspired by** [Anemoia](https://www.media.mit.edu/projects/anemoia/overview/) by Cyrus Clarke and the MIT Media Lab — an AI system that generates personalized scents from memories and emotions.
+**Inspired by** [Anemoia](https://www.media.mit.edu/projects/anemoia/overview/) by Cyrus Clarke and the Tangible Media Group at MIT Media Lab — an AI system that generates personalized scents from memories and emotions.
 
 ![SUKONTHnAI Concept Art](/projects/SUKONTHnAI/concept-art.png)
 
