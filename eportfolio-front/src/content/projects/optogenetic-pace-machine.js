@@ -66,6 +66,9 @@ Due to the complexity of the art I added, I had to migrate the design from Fusio
 
 ![Final Testing Setup](/projects/pace-machine/testing.jpeg)
 
+## Acknowledgements
+I want to thank my PI Dr.Benjamin Bartelle for adopting me into his lab and his unweavering support throughout the project and my personal growth. Clearly working with Dr.Bartelle had changed my personality and gave me the courage to pursue anything I want despite shaking with fear. I also want to thank my labmates, Fernando Flores who taught me the foundation of molecular biology and lab techniques in the simplest way possible and 3d printing the shells of the turbidostat, Ashley Tse for her pioneering work on the PACE machine and knowledge needed to conduct the experiments, and all the other Bioprotean labmates for their help and support. (Ow< <3)
+
 ## Technical Skills
 - Arduino
 - Circuit Design
