@@ -208,7 +208,7 @@ Pico runs pumps + updates LCD
 4. **HTTP Request to OpenRouter**
    - URL: https://openrouter.ai/api/v1/chat/completions
    - Model: openai/gpt-4-vision-preview
-   - API Key: `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`
+   - API Key: `[REDACTED]`
    - System Prompt: SUKONTHnAI persona (see below)
 5. **Parse AI Response** - Extract scent_name, reasoning, pumps (p1, p2, p3, p4)
 6. **Google Sheets Append** - Log session data

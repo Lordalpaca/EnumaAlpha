@@ -299,7 +299,7 @@ Please try again or contact staff.
 - Example: `SUKONTHNAI_20260208_143052`
 
 ### **OpenRouter API Key**
-- **Current Key:** `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`
+- **Current Key:** `[REDACTED]`
 - **⚠️ IMPORTANT:** Regenerate and secure this key before public launch
 - Store in N8N credentials (never hardcode)
 
