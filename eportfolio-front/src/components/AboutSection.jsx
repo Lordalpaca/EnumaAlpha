@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Cpu, Palette, Heart } from "lucide-react";
 
 function AboutSection() {
   return (
@@ -10,12 +10,15 @@ function AboutSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3>Tech x Art enthusiast</h3>
-            <p className="text-muted-foreground">Experience</p>
-            <p className="text-muted-foreground">Skills</p>
+            <h3 className="text-2xl font-semibold">Where Engineering Meets Art & Impact</h3>
+            <p className="text-muted-foreground">
+              I'm a Creative technologist with a passion for creating things that matter. I believe the best solutions come from blending technical precision with creative expression.
+            </p>
+            <p className="text-muted-foreground">
+              My projects often start as jokes, but they evolve into meaningful work that pushes boundaries and challenges conventions.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-            <a href="#contact" className="cosmic-button">Get In Touch</a>
-            <a href="#contact" className="px-6 py-2 rounded-full border border-primary text-primary hoverLbg-primary/10 transition-colors duration-300">Download CV</a>
+              <a href="#projects" className="cosmic-button">View My Work</a>
             </div>
           </div>
 
@@ -24,11 +27,11 @@ function AboutSection() {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                <Code className="h-6 w-6 text-primary"/>
+                  <Cpu className="h-6 w-6 text-primary"/>
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web Development</h4>
-                  <p className="text-muted-foreground">Elaborate...</p>
+                  <h4 className="font-semibold text-lg">Engineering</h4>
+                  <p className="text-muted-foreground">Circuit design, PCB development, Arduino, Fusion360, Altium, and hands-on prototyping.</p>
                 </div>
               </div>
             </div>
@@ -36,11 +39,11 @@ function AboutSection() {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                <User className="h-6 w-6 text-primary"/>
+                  <Palette className="h-6 w-6 text-primary"/>
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web Development</h4>
-                  <p className="text-muted-foreground">Elaborate...</p>
+                  <h4 className="font-semibold text-lg">Art & Design</h4>
+                  <p className="text-muted-foreground">Adobe Illustrator, Photoshop, product design, 3D printing, and laser cutting.</p>
                 </div>
               </div>
             </div>
@@ -48,11 +51,11 @@ function AboutSection() {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                <Briefcase className="h-6 w-6 text-primary"/>
+                  <Heart className="h-6 w-6 text-primary"/>
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Web Development</h4>
-                  <p className="text-muted-foreground">Elaborate...</p>
+                  <h4 className="font-semibold text-lg">Changemaking</h4>
+                  <p className="text-muted-foreground">Building solutions that improve lives — from Engineering Projects in Community Services to Intergen Harmony, a policy initiative bridging generations to promote mental health.</p>
                 </div>
               </div>
             </div>

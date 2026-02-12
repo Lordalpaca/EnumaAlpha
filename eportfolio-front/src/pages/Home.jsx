@@ -3,6 +3,8 @@ import { ThemeToggle } from "../components/ThemeToggle"
 import { Navbar } from "../components/Navbar"
 import { HeroSection } from "../components/HeroSection"
 import AboutSection from "../components/AboutSection"
+import { ProjectsSection } from "../components/ProjectsSection"
+import { Footer } from "../components/Footer"
 
 function Home() {
   return (
@@ -17,9 +19,11 @@ function Home() {
       <main>
         <HeroSection />
         <AboutSection />
+        <ProjectsSection />
       </main>
 
       {/* Footer */}
+      <Footer />
     </div>
   )
 }
