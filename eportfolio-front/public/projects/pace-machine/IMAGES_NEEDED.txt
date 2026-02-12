@@ -1,0 +1,14 @@
+OPTOGENETIC PACE MACHINE - Images to add here:
+==============================================
+
+[x ] thumbnail.jpg      → Card image (use the 3D render)
+[ x] render.jpg         → 3D render of the machine (gray cylinder with red top)
+[x ] system-draft.jpg   → Hand-drawn system plan with turbidostats
+[x] breadboard.jpg     → Breadboard prototype with motors
+[ x] protoboard.jpg     → Soldered protoboard with colorful wires
+[x ] pcb-schematic.jpg  → Fusion360 circuit schematic (red components)
+[x ] pcb-routing.jpg    → PCB routing layout (dark background, colored traces)
+[ x] pcb-render.jpg     → 3D rendered PCB (green board)
+[x] testing.jpg        → Final testing setup photo
+
+Just rename your images to match these names and drop them here!

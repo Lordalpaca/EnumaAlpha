@@ -1,28 +1,13 @@
 import { useEffect, useState } from "react";
-
 import { cn } from "../lib/utils";
 import { Menu, X } from "lucide-react";
-import {
-  DropdownMenu,
-  DropdownMenuTrigger,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuSeparator,
-} from "./ui/dropdown-menu";
 
 
 const navItems = [
   { name: "Home", href: "#hero" },
   { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  // Projects will be handled as dropdown
+  { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
-];
-
-const projectCategories = [
-  { name: "Arts", href: "#projects-arts" },
-  { name: "Engineering", href: "#projects-engineering" },
-  { name: "Activism", href: "#projects-activism" },
 ];
 
 export const Navbar = () => {
@@ -56,45 +41,15 @@ export const Navbar = () => {
 
         {/* desktop navbar */}
         <div className="hidden md:flex space-x-8">
-          {navItems.map((item, key) => {
-            if (item.name === "Contact") {
-              // Insert dropdown before Contact
-              return (
-                <>
-                  <DropdownMenu key="projects">
-                    <DropdownMenuTrigger asChild>
-                      <button className="text-foreground/80 hover:text-primary transition-colors duration-300">
-                        Projects
-                      </button>
-                    </DropdownMenuTrigger>
-                    <DropdownMenuContent align="start">
-                      {projectCategories.map((cat) => (
-                        <DropdownMenuItem asChild key={cat.name}>
-                          <a href={cat.href}>{cat.name}</a>
-                        </DropdownMenuItem>
-                      ))}
-                    </DropdownMenuContent>
-                  </DropdownMenu>
-                  <a
-                    key={key}
-                    href={item.href}
-                    className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                  >
-                    {item.name}
-                  </a>
-                </>
-              );
-            }
-            return (
-              <a
-                key={key}
-                href={item.href}
-                className="text-foreground/80 hover:text-primary transition-colors duration-300"
-              >
-                {item.name}
-              </a>
-            );
-          })}
+          {navItems.map((item, key) => (
+            <a
+              key={key}
+              href={item.href}
+              className="text-foreground/80 hover:text-primary transition-colors duration-300"
+            >
+              {item.name}
+            </a>
+          ))}
         </div>
 
         {/* mobile navbar */}
@@ -116,46 +71,16 @@ export const Navbar = () => {
           )}
         >
           <div className="flex flex-col space-y-8">
-            {navItems.map((item, key) => {
-              if (item.name === "Contact") {
-                return (
-                  <>
-                    <DropdownMenu key="projects-mobile">
-                      <DropdownMenuTrigger asChild>
-                        <button className="text-foreground/80 hover:text-primary transition-colors duration-300 px-2 py-1 rounded-md">
-                          Projects
-                        </button>
-                      </DropdownMenuTrigger>
-                      <DropdownMenuContent align="start">
-                        {projectCategories.map((cat) => (
-                          <DropdownMenuItem asChild key={cat.name} onSelect={() => setIsMenuOpen(false)}>
-                            <a href={cat.href}>{cat.name}</a>
-                          </DropdownMenuItem>
-                        ))}
-                      </DropdownMenuContent>
-                    </DropdownMenu>
-                    <a
-                      key={key}
-                      href={item.href}
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      {item.name}
-                    </a>
-                  </>
-                );
-              }
-              return (
-                <a
-                  key={key}
-                  href={item.href}
-                  className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.name}
-                </a>
-              );
-            })}
+            {navItems.map((item, key) => (
+              <a
+                key={key}
+                href={item.href}
+                className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {item.name}
+              </a>
+            ))}
           </div>
         </div>
       </div>

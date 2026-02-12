@@ -1,0 +1,13 @@
+SPACE COW APOCALYPSE - Images to add here:
+==========================================
+
+[x] thumbnail.jpg       → Card image (use the full game setup photo)
+[x] game-photo.jpg      → Full game setup with box, board, and pieces
+[x] logo.jpg            → "SPACE COW APOCALYPSE" title graphic
+[x] concept-sketches.jpg → Early character/concept sketches
+[x] concept-design.jpg  → Mind map brainstorm diagram
+[x] statistics.jpg      → JMP statistical analysis spreadsheet
+[ ] board-design.jpg    → The game board layout
+[x] game-pieces.jpg     → Painted rockets and 3D printed cows
+
+Just rename your images to match these names and drop them here!

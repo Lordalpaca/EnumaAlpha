@@ -1,0 +1,13 @@
+LEAFYWEAR - Images to add here:
+================================
+
+[x] thumbnail.jpg        → Card image on home page (main photo of the backpack)
+[x ] architecture.jpg     → Main architecture diagram (flow chart with peritoneal cavity, waste, filter, etc.)
+[x ] backpack.jpg         → Photo of the backpack design
+[x ] function-tree.jpg    → Function tree diagram (Safe, Programmable, Convenience, etc.)
+[x ] black-box.jpg        → Black box diagram (inputs/outputs)
+[x ] product-architecture.jpg → Hand-drawn whiteboard architecture sketch
+[x ] circuit-diagram.jpg  → Hand-drawn circuit diagram with microcontroller
+[x ] pcb-design.jpg       → Fusion360 PCB schematic (red components on white)
+
+Just rename your images to match these names and drop them here!
