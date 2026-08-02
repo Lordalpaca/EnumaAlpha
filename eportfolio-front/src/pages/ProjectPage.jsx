@@ -135,7 +135,7 @@ function ProjectPage() {
             {/* Sidebar */}
             {otherProjects.length > 0 && (
               <aside className="lg:w-72 shrink-0">
-                <div className="sticky top-24">
+                <div className="sticky top-24 max-h-[calc(100vh-8rem)] overflow-y-auto pr-1">
                   <h3 className="font-semibold text-lg mb-4">Other Projects</h3>
                   <div className="space-y-4">
                     {otherProjects.map((p) => (
