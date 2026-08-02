@@ -88,6 +88,14 @@ function ProjectPage() {
                         playsInline
                       />
                     ),
+                    iframe: ({ node, ...props }) => (
+                      <iframe
+                        {...props}
+                        className="rounded-xl my-8 mx-auto block w-full max-w-[400px] h-[600px] border-0"
+                        loading="lazy"
+                        allowFullScreen
+                      />
+                    ),
                     a: ({ node, ...props }) => (
                       <a
                         {...props}
