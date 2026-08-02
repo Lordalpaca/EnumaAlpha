@@ -1,4 +1,4 @@
-import { Cpu, Palette, Heart } from "lucide-react";
+import { Cpu, Palette, Heart, Download } from "lucide-react";
 
 function AboutSection() {
   return (
@@ -19,6 +19,14 @@ function AboutSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#projects" className="cosmic-button">View My Work</a>
+              <a
+                href="/Alpha_Sinworn_CV.pdf"
+                download="Alpha_Sinworn_CV.pdf"
+                className="inline-flex items-center justify-center gap-2 px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              >
+                <Download className="h-4 w-4" />
+                Download CV
+              </a>
             </div>
           </div>
 
