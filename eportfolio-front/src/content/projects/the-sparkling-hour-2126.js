@@ -52,7 +52,7 @@ The event's signature "Collective Imagination" workshop got its own blueprint-st
 
 A remix of *Metropolis* (1927, public domain) — the original cinematic vision of a future city, re-cut to ask 2126's question. Rather than editing by hand, I built a small **ffmpeg pipeline**: clips catalogued from the source film, voiceover recorded in segments, speech-to-text alignment for word-accurate captions, and a manifest-driven build script that assembles the final cut. Iterating a new version meant editing a text file, not re-editing a timeline.
 
-[Watch the reel on Instagram →](https://www.instagram.com/what.a.why/)
+*Reel link coming — posted on Instagram.*
 
 ## The Live Activity — Type & Appear
 
@@ -71,7 +71,7 @@ Seconds later, their name and vision appeared floating around a **real-time 3D g
 - Designed and built the scroll-driven hero site from concept to production
 - Directed and programmatically assembled the Metropolis promo reel
 - Built the realtime joiner → projector activity used live at the event
-- Set up the deployment pipeline (Netlify, reverse-proxied apps, Supabase)
+- Configured the reverse-proxy routing so both apps serve under one event domain
 
 ## Technical Skills
 
