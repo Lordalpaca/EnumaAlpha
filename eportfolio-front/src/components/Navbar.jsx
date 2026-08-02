@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { cn } from "../lib/utils";
 import { Menu, X } from "lucide-react";
 
@@ -29,26 +30,26 @@ export const Navbar = () => {
       )}
     >
       <div className="container flex items-center justify-between mx-auto px-4 sm:px-6 lg:px-8">
-        <a
+        <Link
           className="text-xl font-bold text-primary flex items-center"
-          href="#hero"
+          to="/#hero"
         >
           <span className="relative z-10">
             <span className="text-glow text-foreground">Enuma</span>{" "}
             Alpha
           </span>
-        </a>
+        </Link>
 
         {/* desktop navbar */}
         <div className="hidden md:flex space-x-8">
           {navItems.map((item, key) => (
-            <a
+            <Link
               key={key}
-              href={item.href}
+              to={`/${item.href}`}
               className="text-foreground/80 hover:text-primary transition-colors duration-300"
             >
               {item.name}
-            </a>
+            </Link>
           ))}
         </div>
 
@@ -72,14 +73,14 @@ export const Navbar = () => {
         >
           <div className="flex flex-col space-y-8">
             {navItems.map((item, key) => (
-              <a
+              <Link
                 key={key}
-                href={item.href}
+                to={`/${item.href}`}
                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
